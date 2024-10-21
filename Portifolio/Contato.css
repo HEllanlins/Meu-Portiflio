@@ -1,6 +1,3 @@
-
-
-
 section .tudo .logo-Wats .flex{
     align-items: center;
     justify-content: center;
@@ -12,9 +9,8 @@ section .tudo{
 }
 
 .tudo .img > img{
-    max-width: 550px !important;
-    max-height: 400px;
-    margin-left: 34rem;
+    max-width: 600px !important;
+    max-height: 500px;
     color: #00ff5e
 }
 
@@ -23,7 +19,6 @@ section .tudo{
     margin-top: 5rem;
     font-size: 45px;
     line-height: 30px;
-    margin-left: 32rem;
 }
 
 .tudo h2{
@@ -31,7 +26,6 @@ section .tudo{
     margin-top: 2rem;
     font-size: 35px;
     line-height: 30px;
-    margin-left: 27rem;
 }
 
 .tudo h2 span{
@@ -45,4 +39,8 @@ section .tudo{
     border: 10;
     border-color: #00ff5ea9;
     border-radius: 5px;
+}
+
+.tudo{
+    text-align: center;
 }

@@ -32,7 +32,7 @@ body {
 }
 
 h2 .titulo {
-    color: #FFF;
+    color: #ffffff;
     font-size: 38px;
     text-align: center;
 }
@@ -50,7 +50,16 @@ form .btn-enviar input:hover {
 /* Estilo do cabecalho */
 
 header {
-    padding: 40px 4%;
+    padding: 15px 4%;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #181818;
 }
 
 header>.interface {
@@ -60,15 +69,16 @@ header>.interface {
 }
 
 header a {
-    color: #464646;
+    color: #00c795b6;
     text-decoration: none;
     display: inline-block;
+    font-size: 15px;
 }
 
 header nav a:hover {
-    color: #ffffffee;
+    color: #00ccffee;
     transform: scale(1.10);
-    transition: .2s;
+    transition: .5s;
 }
 
 header nav ul {
@@ -91,9 +101,14 @@ header nav ul li {
 }
 
 /* Estilo do topo do site */
-
 section .topo-do-site {
     padding: 40px 4%;
+}
+
+.interface2{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 10rem;
 }
 
 section .topo-do-site .flex {
@@ -107,7 +122,7 @@ section .txt-topo-site .btn-contato {
 }
 
 .topo-do-site h1 {
-    padding: 160px 10px 1%;
+    padding: 170px 10px 1%;
     color: #bbbbbb;
     font-size: 43px;
     line-height: 38px;
@@ -145,6 +160,12 @@ section .txt-topo-site .btn-contato {
 /* Especialidades */
 section .especialidades {
     padding: 40px 8%;
+}
+
+.interface3{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 5rem;
 }
 
 section .especialidades .flex {
@@ -191,6 +212,12 @@ section .especialidades .flex {
 /* estilo do sobre */
 section .sobre {
     padding: 10px 8%;
+}
+
+.interface4{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 19rem;
 }
 
 section .sobre .flex {
@@ -246,6 +273,12 @@ section .portifolio {
     padding: 80px 4%;
 }
 
+.interface5{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 13rem;
+}
+
 .portifolio {
     margin-bottom: 18rem;
     box-shadow: 0 0 40px 10px #00ffaa44;
@@ -254,6 +287,10 @@ section .portifolio {
 section .portifolio .flex {
     justify-content: space-around;
     margin-top: 60px;
+}
+
+.flex{
+    padding-left: 3rem;
 }
 
 .portifolio .img-port {
@@ -299,7 +336,6 @@ section .portifolio .flex {
 }
 
 .portifolio h2 {
-    padding-top: 4rem;
     font-size: 45px;
     color: #d4d4d4c9;
     text-align: center;
@@ -342,12 +378,12 @@ form textarea {
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #fff;
+    color: #ffffffd2;
     font-size: 18px;
 }
 
 form input::placeholder {
-    color: rgb(0, 255, 157);
+    color: rgba(0, 255, 157, 0.712);
 }
 
 form textarea {
@@ -379,6 +415,10 @@ footer {
 
 footer .flex {
     justify-content: space-between;
+}
+
+.direitos{
+    color: #b6b6b6;
 }
 
 .borda {
@@ -413,179 +453,4 @@ footer .line-footer p a {
     cursor: pointer;
     margin: 5px 6px;
     transition: .2s;
-}
-
-/* media */
-
-@media screen and (max-width: 1020px) {
-
-    /*gerais*/
-    .flex {
-        flex-direction: column;
-    }
-
-    h2 .titulo {
-        color: #FFF;
-        font-size: 34px;
-        line-height: 30px;
-    }
-
-    /*cabecalho*/
-    .menu-descktop,
-    .btn-contato {
-        display: none;
-    }
-
-    /*mobile*/
-    .btn-abrir {
-        color: #00ff80;
-        font-size: 40px;
-        text-align: right;
-    }
-
-    .btn-abrir i:hover{
-        filter: drop-shadow(7px 7px 7px aquamarine);
-    }
-
-    .menu-mobile {
-        background-color: rgba(37, 37, 37, 0.897);
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 99999;
-        width: 0%;
-        overflow: hidden;
-        transition: .4s;
-    }
-
-    .menu-mobile.abrir-menu {
-        width: 70%;
-    }
-
-    .menu-mobile.abrir-menu~.overlay-menu {
-        display: block;
-    }
-
-    .menu-mobile .btn-fechar {
-        padding: 20px 8%;
-    }
-
-    .menu-mobile .btn-fechar>i {
-        color: #00ff80e8;
-        font-size: 30px;
-    }
-
-    .menu-mobile>nav>ul {
-        text-align: right;
-    }
-
-    .menu-mobile>nav>ul>li>a {
-        color: #ffffffc4;
-        font-size: 22px;
-        font-weight: 300;
-        padding: 20px 8%;
-        display: block;
-    }
-
-    .menu-mobile>nav>ul>li>a:hover {
-        color: #00ffaa;
-    }
-
-    .overlay-menu {
-        background-color: #000000d0;
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 88888;
-        display: none;
-    }
-
-    /*topo-site*/
-
-    section .topo-do-site .flex {
-        gap: 40px;
-    }
-
-    section .topo-do-site {
-        padding: 20px 8%;
-    }
-
-    .topo-do-site h1 {
-        font-size: 30px;
-    }
-
-    .topo-do-site .img-topo-site img {
-        width: 100%;
-    }
-
-    /* Especialidades */
-    section .especialidades {
-        padding: 40px 8%;
-    }
-
-    .especialidades .especialidades-box {
-        margin-bottom: 5rem;
-    }
-
-    /*sobre*/
-    section .sobre {
-        padding: 80px 8%;
-    }
-
-    .sobre .img_sobre>img {
-        margin-top: 5rem;
-        margin-bottom: 0rem;
-        margin-left: 4rem;
-    }
-
-    .sobre .txt_sobre h2 {
-        font-size: 32px;
-        line-height: 35px;
-        text-align: center;
-    }
-
-    .btn-social {
-        text-align: center;
-    }
-
-    .img-sobre img {
-        width: 100%;
-    }
-
-    .btn-social button {
-        margin-bottom: 10rem;
-    }
-
-    /*portifolio2*/
-    section .portifolio {
-        padding: 80px 8%;
-    }
-
-    .portifolio .img-port {
-        width: 100%;
-        max-width: 360px;
-        margin: 10px 15px;
-    }
-
-    section .portifolio .flex {
-        gap: 60px;
-    }
-
-    /* rodape*/
-    .btn-social-click {
-        text-align: center;
-    }
-}
-
-@media (min-width: 768px) {
-    .menu-descktop {
-        display: block;
-    }
-
-    .mobs {
-        display: none;
-    }
 }
