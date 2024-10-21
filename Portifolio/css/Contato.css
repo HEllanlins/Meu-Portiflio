@@ -35,10 +35,20 @@ section .tudo{
 .tudo h2 span button{
     padding: 6px;
     color:rgba(0, 255, 170, 0.542);
-    background-color: #494949;
+    background-color: #111111;
     border: 10;
     border-color: #00ff5ea9;
     border-radius: 5px;
+}
+
+.contact{
+    width: 100px;
+    transition: .5s;
+}
+
+.contact:hover{
+    background-color: rgb(0, 87, 43);
+    color: #000;
 }
 
 .tudo{

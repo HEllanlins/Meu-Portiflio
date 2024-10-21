@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joh Vintage - Home</title>
+    <!--================== FAVICON ===================-->
+    <link rel="icon" href="/Portifolio/img/LogoJoh.png" />
+    <!--================== CSS ===================-->
+    <link rel="stylesheet" href="/Portifolio/css/home.css" />
+    <link rel="stylesheet" href="/Portifolio/css/mainlayout.css" />
+
+    <!--================== LINK THUMBNAIL META TAGS ===================-->
+    <!-- MS Tile - for Microsoft apps-->
+    <meta
+      name="msapplication-TileImage"
+      content="https://raw.githubusercontent.com/Thiagoow/Rymo-EcommerceWebsite-ResponsiveWithBootstrap/master/Portifolio/img/ThumbnailLinkImg.jpg"
+    />
+    <!-- fb & Whatsapp -->
+    <meta property="og:site_name" content="Rymo." />
+    <meta property="og:title" content="Os Melhores Preços do Ano" />
+    <meta
+      property="og:description"
+      content="Loja virtual fictícia de roupas, sapatos/tênis e acessórios."
+    />
+    <!-- IMG URL: -->
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/Thiagoow/Rymo-EcommerceWebsite-ResponsiveWithBootstrap/master/Portifolio/img/ThumbnailLinkImg.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <!--  size up to 300px. Anything above this will not work in WhatsApp -->
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:url" content="https://rymo.netlify.app/" />
+
+    <!-- FontAwesome CDN: -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap stackPath CSS: -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Bootstrap Jquery and Js separate files:  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- NavBar: -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+      <div class="container">
+        <a href="/Portifolio/JOh Vintage.html">
+          <img class="JOh" src="/Portifolio/img/LogoJoh.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i id="bar" class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav_link active" href="/Portifolio/Joh Vintage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav_link" href="/Portifolio/pages/loja.html">Loja</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav_link" href="/Portifolio/pages/blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav_link" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav_link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <i class="fal fa-search"></i>
+            </li>
+            <li class="nav-item">
+              <a href="/Portifolio/pages/carrinho.html">
+                <i class="fal fa-shopping-bag"></i>
+              </a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="container">
+        <h5>Lançamentos</h5>
+        <h1>Os <bMain>Melhores Preços</bMain> do Ano</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipisicing elit.
+        </p>
+        <button class="text-uppercase">Compre Agora</button>
+      </div>
+    </section>
+
+    <section class="container" id="brands">
+      <div class="row m-0 py-5">
+        <!-- As classes dessas imagens são do próprio bootstrap,
+          deixa as imagens responsivas a partir de 2 colunas pra telas
+          largas, 4 para telas médias, e 6 para telas pequenas: -->
+        <img
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          src="/Portifolio/img/brand/1.png"
+          alt=""
+        />
+        <img
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          src="/Portifolio/img/brand/2.png"
+          alt=""
+        />
+        <img
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          src="/Portifolio/img/brand/3.png"
+          alt=""
+        />
+        <img
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          src="/Portifolio/img/brand/4.png"
+          alt=""
+        />
+        <img
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          src="/Portifolio/img/brand/5.png"
+          alt=""
+        />
+        <img
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          src="/Portifolio/img/brand/6.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="w-100" id="categories">
+      <div class="row p-0 m-0">
+        <div class="one p-0 col-lg-4 col-md-12 col-12">
+          <img class="img-fluid" src="/Portifolio/img/new/1.jpg" alt="" />
+          <div class="details">
+            <h2>Tênis Esportivos</h2>
+            <button class="text-uppercase">Comprar Agora</button>
+          </div>
+        </div>
+
+        <div class="one p-0 col-lg-4 col-md-12 col-12">
+          <img class="img-fluid" src="/Portifolio/img/new/5.jpg" alt="" />
+          <div class="details">
+            <h2>Trajes Sociais</h2>
+            <button class="text-uppercase">Comprar Agora</button>
+          </div>
+        </div>
+
+        <div class="one p-0 col-lg-4 col-md-12 col-12">
+          <img class="img-fluid" src="/Portifolio/img/new/3.jpg" alt="" />
+          <div class="details">
+            <h2>Relógios de Pulso</h2>
+            <button class="text-uppercase">Comprar Agora</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 pb-5" id="featured">
+      <div class="container text-center mt-5 py-5">
+        <h3>Em Destaque</h3>
+        <!-- Linha pra separar o conteúdo: -->
+        <hr class="mx-auto" />
+        <p>Aqui você pode ver os novos produtos da Rymo.</p>
+      </div>
+
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/featured/1.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Tênis Esportivos</h5>
+          <h4 class="p-price">R$98,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/featured/2.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Tênis Casuais</h5>
+          <h4 class="p-price">R$50,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/featured/3.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Mochila Casual</h5>
+          <h4 class="p-price">R$79,80</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/featured/4.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Gorros de Inverno</h5>
+          <h4 class="p-price">R$20,50</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 py-5" id="parallaxBanner">
+      <div class="container">
+        <h4>Nova promoção de temporada</h4>
+        <h1>
+          Coleção de inverno com <br />
+          MAIS DE 20% OFF!
+        </h1>
+        <button class="text-uppercase">Compre Agora</button>
+      </div>
+    </section>
+
+    <section class="my-5" id="clothes">
+      <div class="container text-center mt-5 py-5">
+        <h3>Nova Coleção Feminina</h3>
+        <!-- Linha pra separar o conteúdo: -->
+        <hr class="mx-auto" />
+        <p>Aqui você pode conferir a nova coleção feminina da Rymo.</p>
+      </div>
+
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/clothes/1.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Traje Social Listrado</h5>
+          <h4 class="p-price">R$150,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/clothes/2.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Vestido Listrado</h5>
+          <h4 class="p-price">R$50,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/clothes/3.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Camiseta Preta</h5>
+          <h4 class="p-price">R$25,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/clothes/4.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Camiseta Branca</h5>
+          <h4 class="p-price">R$24,50</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5" id="watches">
+      <div class="container text-center mt-5 py-5">
+        <h3>Relógios Masculinos</h3>
+        <!-- Linha pra separar o conteúdo: -->
+        <hr class="mx-auto" />
+        <p>
+          Aqui você pode conferir a nova coleção de relógios masculinos da Rymo.
+        </p>
+      </div>
+
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/watches/1.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Preto Executivo Couro</h5>
+          <h4 class="p-price">R$150,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio./img/watches/2.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Preto Casual Couro</h5>
+          <h4 class="p-price">R$50,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio./img/watches/3.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Prateado Casual Aço</h5>
+          <h4 class="p-price">R$25,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/watches/4.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Preto e Dourado Couro</h5>
+          <h4 class="p-price">R$24,50</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5" id="boots">
+      <div class="container text-center mt-5 py-5">
+        <h3>Sapatos de Couro Masculino</h3>
+        <!-- Linha pra separar o conteúdo: -->
+        <hr class="mx-auto" />
+        <p>
+          Aqui você pode conferir a nova coleção de sapatos de couro da Rymo.
+        </p>
+      </div>
+
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio./img/shoes/8.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Preto e Branco Casual</h5>
+          <h4 class="p-price">R$150,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/shoes/7.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Marrom Casual</h5>
+          <h4 class="p-price">R$100,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/shoes/6.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Marrom Escuro Executivo</h5>
+          <h4 class="p-price">R$175,00</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/Portifolio/img/shoes/5.jpg" alt="" />
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Bege Casual</h5>
+          <h4 class="p-price">R$124,50</h4>
+          <button class="buy-btn text-uppercase">Compre Agora</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-3">
+      <div class="row container mx-auto pt-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <img class="Joh2" src="/Portifolio/img/LogoJoh.png" alt="" />
+          <p class="pt-3">
+            A <bMain>Joh Vintage.</bMain> é uma loja on-line de roupas. <i>"Mais do que Moda um Estilo de Vida"</i>.<br>
+            <a href="https://github.com/HEllanlins" target="_blank"
+              >Joh Vintage</a
+            ><br>
+            Obrigado por visitar o noso síte.
+          </p>
+        </div>
+
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Categorias</h5>
+          <ul class="list-unstyled">
+            <li><a href="">Feminino</a></li>
+            <li><a href="">Masculino</a></li>
+            <li><a href="">Infantil Feminino</a></li>
+            <li><a href="">Infantil Masculino</a></li>
+            <li><a href="">Lançamentos</a></li>
+            <li><a href="">Sapatos/Tênis</a></li>
+            <li><a href="">Relógios</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Contate-nos</h5>
+          <div class="">
+            <h6 class="text-capitalize">Endereço</h6>
+            <p>QNA 36, Rua Taguatinga Norte</p>
+          </div>
+
+          <div class="">
+            <h6 class="text-capitalize">Telefone</h6>
+            <p>(61) 99999-9999</p>
+          </div>
+
+          <div class="">
+            <h6 class="text-capitalize">E-mail</h6>
+            <p>
+              <a href="mailto:thiagodrive08@hotmail.com"
+                >JohVintage@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <h5 class="pb-2">Instagram</h5>
+          <div class="row">
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="/Portifolio/img/insta/1.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="/Portifolio/img/insta/2.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="/Portifolio/img/insta/3.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="/Portifolio/img/insta/4.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="/Portifolio/img/insta/5.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright mt-5">
+        <div class="row container mx-auto mb-4">
+          <div class="col-lg-3 col-md-6 col-12">
+            <img src="/Portifolio/img/payment.png" alt="" />
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+            <p>© 2021 Hellan Nascimento Lins. Todos os direitos reservados</p>
+          </div>
+
+          <div class="row">
+            <p class="mx-1 ml-4">
+              <a href="https://github.com/HEllanlins" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+            <p class="mx-1">
+              <a href="https://twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
