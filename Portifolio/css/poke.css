@@ -2,7 +2,7 @@ body {
     font-family: arial, sans-serif;
     text-align: center;
     padding: 20px;
-    background-image: url("/Portifolio/image/pokemon.jpg");
+    background-image: url("/image/pokemon.jpg");
     background-size: cover; /* Add this line for better background scaling */
     color: rgb(0, 0, 0); /* Make text white for better contrast */
 }
