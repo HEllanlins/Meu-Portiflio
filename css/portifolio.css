@@ -95,11 +95,6 @@ header nav ul li {
     max-width: 110px;
 }
 
-/*mobile2*/
-.menu-mobile>nav>ul>li>a {
-    display: block;
-}
-
 /* Estilo do topo do site */
 section .topo-do-site {
     padding: 40px 4%;
@@ -108,7 +103,7 @@ section .topo-do-site {
 .interface2{
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 10rem;
+    padding-top: 12rem;
 }
 
 section .topo-do-site .flex {
@@ -278,7 +273,7 @@ section .portifolio {
 .interface5{
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 13rem;
 }
 
 .portifolio {
@@ -292,7 +287,7 @@ section .portifolio .flex {
 }
 
 .flex{
-    padding-left: 3rem;
+    justify-content: center;
 }
 
 .portifolio .img-port {
@@ -304,7 +299,7 @@ section .portifolio .flex {
     cursor: pointer;
     border-radius: 20px;
     position: relative;
-    margin-left: 5rem;
+    margin: 15px;
     margin-top: 2rem;
     margin-bottom: 8rem;
 }
@@ -355,7 +350,7 @@ sectio .formulario {
 .interface6{
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 10rem;
+    padding-top: 15rem;
 }
 
 .formulario h2 {
@@ -430,7 +425,7 @@ footer .flex {
 }
 
 .borda {
-    border-top: 2px solid #00ff88d5;
+    border-top: 1px solid #00ff88d5;
 }
 
 footer .line-footer {
@@ -462,90 +457,3 @@ footer .line-footer p a {
     margin: 5px 6px;
     transition: .2s;
 }
-
-/* Media queries para dispositivos móveis */
-@media only screen and (max-width:  768px) {
-    /* Estilos para dispositivos móveis */
-    .interface {
-      max-width: 100%;
-    }
-    .flex {
-      flex-direction: column;
-    }
-    .topo-do-site {
-      padding: 20px 4%;
-    }
-    .especialidades {
-      padding: 20px 8%;
-    }
-    .sobre {
-      padding: 10px 8%;
-    }
-    .portifolio {
-      padding: 40px 4%;
-    }
-    .formulario {
-      padding: 40px 4%;
-    }
-    footer {
-      padding: 15px 4%;
-    }
-  }
-  
-  /* Media queries para tablets */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Estilos para tablets */
-    .interface {
-      max-width: 90%;
-    }
-    .flex {
-      flex-direction: row;
-    }
-    .topo-do-site {
-      padding: 30px 4%;
-    }
-    .especialidades {
-      padding: 30px 8%;
-    }
-    .sobre {
-      padding: 20px 8%;
-    }
-    .portifolio {
-      padding: 60px 4%;
-    }
-    .formulario {
-      padding: 60px 4%;
-    }
-    footer {
-      padding: 20px 4%;
-    }
-  }
-  
-  /* Media queries para desktops */
-  @media only screen and (min-width: 1025px) {
-    /* Estilos para desktops */
-    .interface {
-      max-width: 80%;
-    }
-    .flex {
-      flex-direction: row;
-    }
-    .topo-do-site {
-      padding: 40px 4%;
-    }
-    .especialidades {
-      padding: 40px 8%;
-    }
-    .sobre {
-      padding: 30px 8%;
-    }
-    .portifolio {
-      padding: 80px 4%;
-    }
-    .formulario {
-      padding: 80px 4%;
-    }
-    footer {
-      padding: 30px 4%;
-    }
-  }
