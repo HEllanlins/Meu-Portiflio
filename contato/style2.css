@@ -1,0 +1,48 @@
+
+
+
+section .tudo .logo-Wats .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+section .tudo{
+    padding: 50px 4%;
+}
+
+.tudo .img > img{
+    max-width: 550px !important;
+    max-height: 400px;
+    margin-left: 34rem;
+    color: #00ff5e
+}
+
+.tudo h1{
+    color: #bbbbbb;
+    margin-top: 5rem;
+    font-size: 45px;
+    line-height: 30px;
+    margin-left: 32rem;
+}
+
+.tudo h2{
+    color: #bbbbbb;
+    margin-top: 2rem;
+    font-size: 35px;
+    line-height: 30px;
+    margin-left: 27rem;
+}
+
+.tudo h2 span{
+    color: rgb(65, 149, 121)
+}
+
+.tudo h2 span button{
+    padding: 6px;
+    color:rgba(0, 255, 170, 0.542);
+    background-color: #494949;
+    border: 10;
+    border-color: #00ff5ea9;
+    border-radius: 5px;
+}

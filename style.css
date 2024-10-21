@@ -1,0 +1,591 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+body {
+    background-color: #181818;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(0, 255, 157);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1.2s;
+}
+
+h2 .titulo {
+    color: #FFF;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 .titulo span {
+    color: rgb(0, 212, 142);
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #00c3ff;
+    transform: scale(1.05);
+}
+
+/* Estilo do cabecalho */
+
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #464646;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header nav a:hover {
+    color: #ffffffee;
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.interface .logo a>img {
+    max-height: 60px !important;
+    max-width: 110px;
+}
+
+/*mobile2*/
+.menu-mobile>nav>ul>li>a {
+    display: block;
+}
+
+/* Estilo do topo do site */
+
+section .topo-do-site {
+    padding: 40px 4%;
+}
+
+section .topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+section .txt-topo-site .btn-contato {
+    padding-left: 10px;
+}
+
+.topo-do-site h1 {
+    padding: 160px 10px 1%;
+    color: #bbbbbb;
+    font-size: 43px;
+    line-height: 38px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #bbbbbb;
+}
+
+.topo-do-site .txt-topo-site p {
+    padding: 0 10px;
+    color: #bbbbbb;
+    margin: 25px 0;
+}
+
+.topo-do-site .img-topo-site>img {
+    padding: 110px 10px;
+    position: relative;
+    animation: flutuar 3s ease-in-out infinite alternate;
+    max-width: 450px;
+    max-height: 550px;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 50px;
+    }
+}
+
+
+/* Especialidades */
+section .especialidades {
+    padding: 40px 8%;
+}
+
+section .especialidades .flex {
+    gap: 80px;
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .5s;
+    margin-bottom: 15rem;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ff00ddda;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 90px;
+    color: rgb(2, 255, 171);
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 45px;
+    margin: 15px 0;
+    color: rgba(0, 253, 169, 0.808)
+}
+
+.especialidades h2 {
+    font-size: 45px;
+    color: #bbbbbb;
+    margin-top: 11rem;
+    margin-left: 1rem;
+}
+
+.especialidades h2 span {
+    color: #13ecab;
+}
+
+
+/* estilo do sobre */
+section .sobre {
+    padding: 10px 8%;
+}
+
+section .sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .img_sobre>img {
+    width: 250px;
+    height: 350px;
+    border-radius: 15%;
+    margin-bottom: 18rem;
+}
+
+.sobre .txt_sobre {
+    color: #bbbbbb;
+}
+
+.sobre .txt_sobre h2 {
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt_sobre h2 span {
+    color: #13ecab;
+    display: block;
+}
+
+.sobre .txt_sobre p {
+    padding-left: 10px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.btn-social button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(0, 255, 157);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px 6px;
+    transition: .2s;
+}
+
+
+/* portifolio */
+section .portifolio {
+    padding: 80px 4%;
+}
+
+.portifolio {
+    margin-bottom: 18rem;
+    box-shadow: 0 0 40px 10px #00ffaa44;
+}
+
+section .portifolio .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.portifolio .img-port {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5S;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.portifolio .img-port:hover {
+    background-position: 100% 100%;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #0099ffda;
+}
+
+.OVERLAY {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009a;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .8s;
+}
+
+.OVERLAY:hover {
+    opacity: 1;
+}
+
+.portifolio h2 {
+    padding-top: 4rem;
+    font-size: 45px;
+    color: #d4d4d4c9;
+    text-align: center;
+}
+
+.portifolio h2 span {
+    color: rgb(0, 255, 157);
+}
+
+/* Fala comigo */
+sectio .formulario {
+    padding: 80px 4%;
+}
+
+.formulario h2 {
+    color: #c2c2c2d7;
+    font-size: 40px;
+    text-align: center;
+}
+
+.formulario h2 span {
+    color: rgb(0, 255, 149);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #1f1f1faf;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: rgb(0, 255, 157);
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 15px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #238155;
+    color: #d1d1d1da;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 12rem;
+}
+
+/* rodapé */
+
+footer {
+    padding: 25px 4%;
+    box-shadow: 0 0 40px 10px #00ff8883;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+.borda {
+    border-top: 2px solid #00ff88d5;
+}
+
+footer .line-footer {
+    padding: 10px 0;
+}
+
+footer .line-footer p i {
+    color: #00ff9dd8;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #ebebebda;
+}
+
+.logo-footer img {
+    max-height: 60px !important;
+    max-width: 110px;
+}
+
+.btn-social-click button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(0, 255, 157);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px 6px;
+    transition: .2s;
+}
+
+/* media */
+
+@media screen and (max-width: 1020px) {
+
+    /*gerais*/
+    .flex {
+        flex-direction: column;
+    }
+
+    h2 .titulo {
+        color: #FFF;
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /*cabecalho*/
+    .menu-descktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /*mobile*/
+    .btn-abrir {
+        color: #00ff80;
+        font-size: 40px;
+        text-align: right;
+    }
+
+    .btn-abrir i:hover{
+        filter: drop-shadow(7px 7px 7px aquamarine);
+    }
+
+    .menu-mobile {
+        background-color: rgba(37, 37, 37, 0.897);
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        width: 0%;
+        overflow: hidden;
+        transition: .4s;
+    }
+
+    .menu-mobile.abrir-menu {
+        width: 70%;
+    }
+
+    .menu-mobile.abrir-menu~.overlay-menu {
+        display: block;
+    }
+
+    .menu-mobile .btn-fechar {
+        padding: 20px 8%;
+    }
+
+    .menu-mobile .btn-fechar>i {
+        color: #00ff80e8;
+        font-size: 30px;
+    }
+
+    .menu-mobile>nav>ul {
+        text-align: right;
+    }
+
+    .menu-mobile>nav>ul>li>a {
+        color: #ffffffc4;
+        font-size: 22px;
+        font-weight: 300;
+        padding: 20px 8%;
+        display: block;
+    }
+
+    .menu-mobile>nav>ul>li>a:hover {
+        color: #00ffaa;
+    }
+
+    .overlay-menu {
+        background-color: #000000d0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 88888;
+        display: none;
+    }
+
+    /*topo-site*/
+
+    section .topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section .topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /* Especialidades */
+    section .especialidades {
+        padding: 40px 8%;
+    }
+
+    .especialidades .especialidades-box {
+        margin-bottom: 5rem;
+    }
+
+    /*sobre*/
+    section .sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .img_sobre>img {
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+        margin-left: 4rem;
+    }
+
+    .sobre .txt_sobre h2 {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    .btn-social button {
+        margin-bottom: 10rem;
+    }
+
+    /*portifolio2*/
+    section .portifolio {
+        padding: 80px 8%;
+    }
+
+    .portifolio .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 10px 15px;
+    }
+
+    section .portifolio .flex {
+        gap: 60px;
+    }
+
+    /* rodape*/
+    .btn-social-click {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-descktop {
+        display: block;
+    }
+
+    .mobs {
+        display: none;
+    }
+}
